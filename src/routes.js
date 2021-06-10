@@ -11,7 +11,6 @@ export default function routes() {
                 <Route path="/auth" component={Auth} />
                 <Redirect from="/" to="/auth" />
             </Switch>
-
         </Router>
     )
 }
